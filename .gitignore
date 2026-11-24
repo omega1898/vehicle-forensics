@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.env
+# Never commit real collected data, keys, or non-public material
+data/private/
+*.key
+*.pem
